@@ -1,0 +1,26 @@
+{
+    "name": "cli",
+    "version": "1.0.0",
+    "description": "Basic Command Line Interface",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Testing Some Commands Over Here!\"",
+        "start": "node ./main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "NONE"
+    },
+    "keywords": [
+        "CLI"
+    ],
+    "author": "IslemPenywis",
+    "license": "MIT ",
+    "dependencies": {
+        "chalk": "^2.3.1",
+        "commander": "^2.14.1",
+        "figlet": "^1.2.0",
+        "inquirer": "^5.1.0",
+        "mongoose": "^5.0.6"
+    }
+}
